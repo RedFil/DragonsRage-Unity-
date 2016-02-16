@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PersistentObject : MonoBehaviour {
 	void Awake () {
-		DontDestroyOnLoad (this);
+		DontDestroyOnLoad (gameObject);
 	}
 
 	// Use this for initialization
